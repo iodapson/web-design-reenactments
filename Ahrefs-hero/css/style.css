@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Cookie&family=Fira+Sans:wght@500&family=IBM+Plex+Sans+KR:wght@400;500;700&family=Poppins&display=swap');
+
+:root {
+    --hero-font: 'IBM Plex Sans KR', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #054ada;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+body
+.main-section {
+    width: inherit;
+    height: 102vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.main-section
+.header-section {
+    padding: 0;
+    margin: 4vh 2vh 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-section
+.left-nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.header-section
+.right-nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.header-section .left-nav-links
+.ahrefs-logo {
+    margin-left: 2vw;
+}
+
+.nav-link {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 1.2em;
+    color: rgba(255, 255, 255, 0.6);
+    /*font-family: "IBM Plex Sans", Helvetica, Arial, sans-serif;*/
+    font-family: var(--hero-font);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: start;
+    letter-spacing: normal;
+}
+
+.right-nav-links .start-trial {
+    border: 2.5px solid #9BB7F0;
+    padding: 6px 14px;
+    margin-right: 1.2em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.main-section .hero-section {
+    display: flex;
+    flex-direction: column;
+}
+
+body .main-section
+.hero {
+    width: 100%;
+    height: auto;
+    display: flex;
+    /*flex-flow: column nowrap;*/
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5.6em;
+}
+
+.hero
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    font-family: var(--hero-font);
+    /*color: #ffffff;*/
+    font-style: normal;
+    font-weight: 450;
+    font-size: 90px;
+    line-height: 83px;
+    text-align: center;
+    color:rgba(255, 255, 255)
+}
+
+
+.hero-section
+.hero-icon {
+    margin-right: 20px;
+}
+
+.hero
+.free-trial-prompt {
+    display: flex;
+}
+
+.free-trial-prompt {
+    display: flex;
+    font-weight: 450;
+    font-style: normal;
+    font-family: var(--hero-font);
+    margin-top: 2.2rem;
+    margin-bottom: 3.5rem;
+    text-align: center;
+    padding-left: 13.2rem;
+    box-sizing: border-box;
+    color:rgba(255, 255, 255, 0.6)
+}
+
+.free-trial-prompt
+.seven-dollar-free-trial {
+    font-family: var(--hero-font);
+    font-size: 32px;
+    background-color: #ff8800;
+    /*color: #ffffff;*/
+    padding: 0.8rem 2rem;
+    color:rgba(255, 255, 255)
+}
+
+.free-trial-prompt
+.ahrefs-for-free {
+    margin-left: 1.6em;
+    flex-direction: column;
+    justify-content: center;;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 22%;
+    font-size: 15px
+}
+
+.free-trial-prompt
+#for-free-text {
+    text-align: left;
+    width: 100%;
+    color: #e57a00;
+}
+
+.hero
+.trials-and-company-listings-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 80%;
+    font-family: var(--hero-font);
+    font-weight: 400;
+    font-style: normal;
+    /*color: rgba(255, 255, 255, 0.6)*/
+    /*border: 2px solid snow; /*!!! DELETE THIS LINE */
+    margin-top: -1.2rem;
+}
+
+.trials-and-company-listings-row
+.trials-count-and-description {
+    display: flex;
+    color:rgba(255, 255, 255, 0.6)
+}
+
+.trials-count-and-description
+.counts-digit {
+    display: flex;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.trials-count-and-description
+.counts-description {
+    display: flex;;
+    font-size: 20px;
+    width: 40%;
+    line-height: 20px;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.trials-and-company-listings-row
+.company-listings-and-explanation {
+    display: flex;
+    flex-direction: column;
+    margin-left: -2.8em;
+}
+
+.company-listings-and-explanation
+.company-listings {
+    display: flex;
+    box-sizing: border-box;
+    width: fit-content;
+    height: 90px;
+    margin-top: -1.7rem;
+    margin-left: -0.3rem;
+}
+
+.company-listings
+.logo {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 1.2rem;
+}
+
+.company-listings
+#facebook {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    /* I'm not sure if this is the right color to use*/
+    /*color: rgba(255, 255, 255, 0.6); */
+    color: #ffffff99;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    margin-left: 0.3rem;
+}
+
+.company-listings
+#adobe {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.company-listings
+#netflix {
+    margin-left: -0.3rem;
+    margin-right: 0.8rem
+}
+
+.company-listings
+#linkedin {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.company-listings-and-explanation
+.explanation-for-company-listings {
+    margin-top: -2rem;
+    font-size: 16.8px;
+    font-weight: 600;
+    color:rgba(255, 255, 255, 0.6)
+}
+
+/* This CSS code specifies that a message icon
+   remain fixed at the bottom right corner of the screen
+*/
+.msg-icon {
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 50px;
+    background-color:rgba(255, 255, 255, 0.6);
+    padding: 16px;
+}
